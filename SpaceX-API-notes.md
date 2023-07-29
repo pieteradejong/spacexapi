@@ -11,7 +11,6 @@ Source:
 * Crew ref: Launch
 * Dragon 
 * History 
-* Index 
 * Landpad ref: Launch
 * Launch ref: Rocket(has-one), Ships(has-many), Crew(has-many), Capsules(has-many), Payloads(has-many), Launchpad(has-one), Core(has-many)
 * Launchpad ref: Rocket(has-many), Launches(has-many)
