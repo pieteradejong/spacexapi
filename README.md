@@ -5,10 +5,12 @@ Based on `https://github.com/r-spacex/SpaceX-API/tree/master` SpaceX REST API. W
 ## Stack:
 * PostgreSQL database
 * Python FastAPI
-* Shell scripts to:
-  * Fetch all data from `SpaceX-API` and save to local mongodb files.
-  * Maybe: extract schema from Mongo files.
+* Setup local Mongo database.
 * SQL script to create manually defined schema based on Mongo schema.
 * Migration script to seed Postgres database with data from Mongo.
 
+## Project
 
+Module: data crawl
+Module: expose data via FastAPI
+Dockerize: add Dockerfile, docker-compose; runnable as Docker container
